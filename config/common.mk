@@ -32,12 +32,10 @@ PRODUCT_COPY_FILES += \
 
 # init.d support
 PRODUCT_COPY_FILES += \
-    vendor/aosgp/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/aosgp/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # AOSGP Tweaks support
 PRODUCT_COPY_FILES += \
-    vendor/aosgp/prebuilt/common/etc/init.d/00ARCHIDROID_INITD:system/etc/init.d/00ARCHIDROID_INITD \
     vendor/aosgp/prebuilt/common/etc/init.d/AS00better_scrolling:system/etc/init.d/LS00better_scrolling \
     vendor/aosgp/prebuilt/common/etc/init.d/AS00CPU:system/etc/init.d/LS00CPU \
     vendor/aosgp/prebuilt/common/etc/init.d/AS00CPU_optimizer:system/etc/init.d/LS00CPU_optimizer \
